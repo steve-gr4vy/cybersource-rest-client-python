@@ -21,7 +21,7 @@ setup(
     keywords=["Payments API", "CyberSource"],
     install_requires=[
         "certifi",
-        "pycryptodome",
+        "pycryptodome==3.10.3",
         "PyJWT",
         "pyOpenSSL",
         "DateTime",
